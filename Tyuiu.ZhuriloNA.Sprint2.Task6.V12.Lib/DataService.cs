@@ -27,7 +27,7 @@ namespace Tyuiu.ZhuriloNA.Sprint2.Task6.V12.Lib
             }
             if (n > 1)
             {
-                return ($"{n - 1}.{m}.{g}"); 
+                return ($"0{n - 1}.0{m}.{g}"); 
             }
             else
             {
@@ -37,7 +37,7 @@ namespace Tyuiu.ZhuriloNA.Sprint2.Task6.V12.Lib
                 }
                 else
                 {
-                    return ($"{daysInMonth}.{m - 1}.{g}"); 
+                    return ($"0{daysInMonth}.0{m - 1}.{g}"); 
                 }
             }
         }
